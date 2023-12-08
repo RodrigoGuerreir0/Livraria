@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/livraria.css">
+    <title>Cliente</title>
+</head>
+
+<body>
+    <div class="centro">
+        <h1>CADASTRO DE CLIENTE</h1>
+        <form action="../Clientes.php" method="post">
+            <div class="form-group">
+                <input id="nome" class="form-control"  type="text" name="nome" placeholder="Nome">
+            </div>
+            <div class="form-group">
+                <input id="cpf" class="form-control" type="text" name="cpf" placeholder="cpf">
+            </div>
+            <div class="form-group">
+                <input id="idade" class="form-control" type="text" name="idade" placeholder="idade">
+            </div>
+            <div class="form-group">
+                <input id="data_de_nascimento" class="form-control" type="date" name="data_de_nascimento" placeholder="Data De Nascimento">
+            </div>
+            <div class="form-group">
+                <input id="telefone" class="form-control" type="text" name="telefone" placeholder="Telefone">
+            </div>
+            <div class="form-group">
+                <input id="cep" class="form-control" type="text" name="cep" placeholder="CEP">
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
